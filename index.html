@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factorial</title>
+	<style type="text/css">
+		#factorial{
+			width:400px;
+
+		}
+		ul{
+			list-style: none;
+			border: thin solid #000;
+			background-color:#ff6351;
+		}
+		li:nth-child(odd){
+			background-color:#A5CCCA;
+		}
+		li:nth-child(even){
+			background-color:#FFF6CE;
+		}
+
+	</style>
+</head>
+<body>
+
+<h1>Fun With Factorials</h1>
+
+<label>Enter A Number</label>
+<input type="text" name="num" id="num">
+<button id="submit">Enter</button>
+
+<h2>Results</h2>
+<div id="factorial">
+	<ul id="factorialList"></ul>
+</div>
+
+<footer>
+	<script type="text/javascript" src="./factorial.js" ></script>
+</footer>
+
+</body>
+</html>
