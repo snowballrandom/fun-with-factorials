@@ -1,4 +1,5 @@
-//alert('hello');
+//Javascript
+
 function factorial(num){
 	var result = 1;
 	for (var i = 1; i <= num; i++) {
@@ -17,16 +18,5 @@ document.getElementById("submit").onclick = function(){
 
     li.setAttribute("class", "result")
     li.append(html);
-    
-
-	/**
-	for (var i = 0; i <= ul.length; i++) {
-		//console.log(i);
-		console.log(ul[i]);
-		
-		
-	}
-	*/
-
 	
 }
